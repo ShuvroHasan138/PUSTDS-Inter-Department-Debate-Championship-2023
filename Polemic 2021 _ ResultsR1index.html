@@ -26,6 +26,95 @@
   
   <link href="./Polemic 2021 _ ResultsR1index_files/app.js.download" rel="preload" as="script">
   
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+.dropbtn {
+    background-color: #ffffff;
+    color: rgb(0 0 0 / 50%);
+    margin-top: 7px;
+    font-size: 16px;
+    border: none;
+    border-color: #ffffff;
+
+}
+i.fa-caret-down{
+
+padding-left: 5px;
+font-size: 13px;
+margin-top: 0px;
+
+
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: none;
+}
+
+.dropdown-content a {
+  color: rgb(0 0 0 / 50%);
+  width: 100%;
+  text-decoration: none;
+  display: block;
+  padding: 0.3rem 1.5rem;
+  font-weight: 400;
+    text-align: inherit;
+    border: none;
+}
+
+
+
+
+
+
+a.dropdown-item:hover {color: #663da0;
+
+background-color: #ffffff ;
+
+
+
+
+
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+
+    color: #663da0;
+     background-color: #ffffff;
+outline: none;
+border: none;
+
+}
+
+
+.dropbtn:focus{
+
+outline: none;
+
+    border-color: blue;
+}
+
+
+
+
+
+</style>
+
   
 </head>
 
@@ -107,13 +196,16 @@
 
 <!-- RESULTS RELEASES -->
 
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="https://gbdsfightscancer.calicotab.com/polemic2021/#" id="roundsDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-       Results
-    </a>
-    <div class="dropdown-menu" aria-labelledby="roundsDrop">
-      
-        <a class="dropdown-item" href="Polemic 2021 _ ResultsR1index.html">
+<li class="nav-item ">
+<div class="dropdown">
+  <button class="dropbtn">Results
+
+
+<i class="fa fa-caret-down"></i>
+
+  </button>
+  <div class="dropdown-content dropdown-menu" aria-labelledby="roundsDrop">
+    <a class="dropdown-item" href="Polemic 2021 _ ResultsR1index.html">
           Round 1
         </a>
       
@@ -136,10 +228,18 @@
         <a class="dropdown-item" href="Polemic 2021 _ ResultsGFindex.html">
           Grand Final
         </a>
-      
-    </div>
-  </li>
+  </div>
+</div>
 
+</li>
+
+
+
+
+
+
+
+  
 
 <!-- BREAK RELEASES -->
 
@@ -1885,32 +1985,7 @@
   
 
   
-
-  js-beautify
-(v1.14.7)
-Beautify JavaScript, JSON, React.js, HTML, CSS, SCSS, and SASS
-
-Enable Dark Mode
-
-Beautify JavaScript
-Beautify Code (ctrl‑enter)
-
-Copy to Clipboard
- 
-Select All
- 
-Clear
- No file chosen
-Options
-
-Indent with 4 spaces
-
-Allow 5 newlines between tokens
-
-Do not wrap lines
-
-Braces with control statement
-HTML <style>, <script> formatting:
+<style>, <script> formatting:
 
 
 Add one indent level
